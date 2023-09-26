@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(istockphoto-1289986792-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{  
+    width: 75%;
+    height: 90%;
+    opacity: 0.9;
+    display: flex;
+    border-radius: 30px;
+}
+.container .sol{
+    width: 35%;
+    height: 100%;
+    background-color: darkgrey;
+
+}
+.container .sol .köse1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    float: right;
+}
+.container .sol .köse{
+    width: 100%;
+    height: 85%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    align-items: center;
+    margin-right: 10px;
+   
+}
+.sol .köse img{
+    width: 92%;
+    height: 13%;
+    border-radius: 50%;
+    margin: 10px;
+}
+.container .üst{
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .sol .üst img{
+    width: 117px;
+    border-radius: 50%;
+    height: 50%;
+}
+.üst li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+}
+.üst li p {
+    color: gray;
+}
+.sol .orta{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.alt{
+    height: 36%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+.alt .button button{
+    background-color: rgb(83, 83, 236);
+    width: 71%;
+    height: 33px;
+    border-radius: 12px;
+    border: none;
+    margin: 10px 0;
+    color:white;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+.alt .buttons button{
+    width: 23%;
+    border-radius: 10px;
+    height: 30px;
+    margin: 3px;
+    font-size: 17px;
+    background-color: rgba(128, 128, 128, 0.719);
+    color: white;
+    text-align: center;
+}
+.container .sag{
+    width: 65%;
+    height: 100%;
+}
+.sag div{
+    display: flex;
+    height: 25%;
+    width: 100%;
+}
+.sag div img{
+    width: 24%;
+    height: 93%; 
+    margin-right: 5px;
+}
+
+    
+    
+
